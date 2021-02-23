@@ -1,0 +1,10 @@
+.lead {
+  max-width: 984px;
+  min-height: 250px;
+  margin: 56px 148px 0px;
+}
+
+.lead *:last-child {
+   margin: 0 0 0 0;
+}
+

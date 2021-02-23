@@ -1,0 +1,31 @@
+.cover__link {
+background-image: url(background.jpg);
+max-width: 1184px;
+min-height: 740px;
+margin: 0 48px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position:relative;
+text-decoration: none;
+color:#FFFFFF;
+z-index: 1;
+}
+
+.cover__link:before {
+content:'';
+background: #2A2C2F;
+opacity: 0;
+position:absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left:0;
+z-index: -1;
+transition: 0.2s;
+}
+
+.cover__link:hover:before{
+opacity: 0.8;
+}
