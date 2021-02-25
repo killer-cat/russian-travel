@@ -3,7 +3,29 @@
     min-height: 52px;
     display: flex;
     padding-top: 28px;
-    margin: 0px 48px 0px;
+    box-sizing: border-box;
+    margin: 0px auto;
     justify-content: space-between;
     align-items: flex-end;
 }
+
+
+@media screen and (max-width: 1279px) {
+    .header   {
+        max-width: calc(100% - 48px*2);
+   }
+}
+
+  @media screen and (max-width: 1023px) {
+    .header   {
+        max-width: calc(100% - 24px*2);
+      
+    }
+}
+  
+  @media screen and (max-width: 767px) {
+    .header   {
+        max-width: calc(100% - 16px*2);
+    }
+}
+  
