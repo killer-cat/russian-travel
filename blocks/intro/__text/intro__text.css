@@ -8,3 +8,11 @@
   line-height: 163%;
   margin: 0 0 33px;
 }
+
+
+@media screen and (max-width: 767px) {
+  .intro__text {
+    width: 100%;
+    margin: 0 0 34px;
+  } 
+}
