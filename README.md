@@ -15,8 +15,6 @@ CSS3
 __Применение шрифтов:__
 _Inter_
 
-**Интро**
-Проект о путешествии по России.
 
 ### Технологии
 * Grid Layout
@@ -32,11 +30,11 @@ _________________________
 
 **Figma**
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+* [Макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
 
 
 **GitHub Pages**
-* [Ссылка](https://killer-cat.github.io/russian-travel/)
+* [Проектная работа](https://killer-cat.github.io/russian-travel/)
 
 
 
