@@ -1,11 +1,28 @@
 .footer__links {
+   max-width: 100%;
+   margin: 0;
 }
+
+.footer__links *:last-child {
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer__links {
+        min-width: 180px;
+        display:flex
+    }
+}
+
+
 
 
 @media screen and (max-width: 767px) {
     .footer__links {
+        min-width: 180px;
         display:flex;
         flex-direction: column;
-        text-align: start; 
+        text-align: start;
+        margin-bottom: 48px;
     }
 }
