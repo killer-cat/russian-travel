@@ -1,2 +1,7 @@
 .header__menu {
+    display: flex;
+    gap: 18px;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
 }
