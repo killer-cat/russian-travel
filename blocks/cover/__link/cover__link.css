@@ -1,6 +1,7 @@
 .cover__link {
   text-decoration: none;
   color:#FFFFFF;
+  max-width: 100%;
   min-height: 740px;
   display: flex;
   flex-direction: column;
@@ -29,21 +30,22 @@
 
 @media screen and (max-width: 1279px) {
   .cover__link {
-    max-width: 560px;
+    min-height: 640px;
     margin: 0;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover__link  {
-    max-width: 560px;
+    min-height: 480px;
   }
 }
 
 
 @media screen and (max-width: 767px) {
   .cover__link  {
-    max-width: 288px;
+    max-width: 100%;
+    min-height: 200px;
   }
 }
 
