@@ -15,14 +15,13 @@ grid-template-areas:
 
 @media screen and (max-width: 1279px) {
     .place  {
-      grid-template-columns: 0,9649122807017541fr 1fr;
+      grid-template-columns: 0,9fr 1fr;
       gap: 48px 32px;
     }
   } 
   
   @media screen and (max-width: 1023px) {
     .place {
-        grid-template-columns: 0,965909090909091fr 1fr;
         gap: 48px 28px;
    } 
   }

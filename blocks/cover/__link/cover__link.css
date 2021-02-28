@@ -7,7 +7,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-size: cover;
+  
 }
     
 .cover__link:before {
@@ -44,7 +44,6 @@
 
 @media screen and (max-width: 767px) {
   .cover__link  {
-    max-width: 100%;
     min-height: 200px;
   }
 }
