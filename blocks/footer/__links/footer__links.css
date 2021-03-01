@@ -4,11 +4,6 @@
    display:flex;
 }
 
-.footer__links :last-of-type{ 
-    margin: 0; 
-} 
-
-
 @media screen and (max-width: 1024px) {
     .footer__links {
         min-width: 180px;
